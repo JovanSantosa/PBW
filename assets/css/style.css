@@ -1,0 +1,101 @@
+*{
+    font-family: 'Inter';
+    padding: 0;
+    margin: 0;
+}
+
+.playpen{
+    font-family: 'Playpen Sans' !important;
+}
+
+.poppin{
+    font-family: 'Poppins' !important;
+}
+
+:root{
+    --primary-100:#FFD700;
+    --primary-200:#ddb900;
+    --primary-300:#917800;
+    --accent-100:#00FFFF;
+    --accent-200:#00999b;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#000000;
+    --bg-200:#161616;
+    --bg-300:#2c2c2c;
+}
+.navblur {
+    -webkit-backdrop-filter:  blur(20px);
+    backdrop-filter:  blur(20px);
+}
+.caroblur {
+    -webkit-backdrop-filter:  blur(10px);
+    backdrop-filter:  blur(10px);
+}
+.text-yellow{
+    color: var(--primary-100);
+}
+.text-yellowd{
+    color: var(--primary-200);
+}
+.text-blue{
+    color: var(--accent-200);
+}
+.bg-grey{
+    background: linear-gradient(to right bottom,var(--bg-200) 10%, var(--bg-300)  );
+}
+.bg-greylight{
+    background-color: rgba(1, 1, 0, 0.55) !important;
+}
+.bg-1{
+    background-color: var(--bg-200) !important;
+}
+.bg-2{
+    background: linear-gradient(to bottom, var(--bg-100), var(--bg-200), var(--bg-300));
+}
+.bg-3{
+    background-color: var(--primary-200);
+}
+.bg-4{
+    background-color: #272829;
+}
+.bg-5{
+    background-color: var(--text-100);
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='00999b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='00999b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.border-blue{
+    border-color: var(--primary-100) !important;
+}
+
+@media (max-width: 1200px) {
+    .res-text {
+      font-size: 11px !important;
+    }
+}
+@media (max-width: 800px) {
+    .res-text {
+      font-size: 8px !important;
+    }
+}
+@media (max-width: 500px) {
+    .res-text {
+      font-size: 5px !important;
+    }
+}
+
+.navhover:hover{
+    text-shadow: 1px 1px 15px #FFFFFF;
+    font-weight: bold !important;
+    border-bottom: 1px double #ffffff;
+    
+}
+.navhover{
+    margin-left: 10px;
+
+}
+
